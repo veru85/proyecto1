@@ -5,8 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<h1>Hola mundo</h1>
+<nav></nav>
+
+<div class="descuentos">
+    <div id="descuento-estudiante">
+
+        <h2>ESTUDIANTE</h2>
+        <h4>80% descuento</h4>
+        <p>Presentar documentación</p>
+    </div>
+    <div id="descuento-trainee">
+        <h2>TRAINEE</h2>
+        <h4>50% descuento</h4>
+        <p>Presentar documentación</p>
+    </div>
+    <div id="descuento-junior">
+        <h2>JUNIOR</h2>
+        <h4>15% descuento</h4>
+        <p>Presentar documentación</p>
+    </div>
+</div>
+
+<div id="venta">
+
+    <h2>VALOR DE TICKET $200</h2>
+    <br>
+    <br>
+
+
+    <form action="">
+        <label for="">Nombre</label>
+        <input id= "valorNombre" type="text"  class = "form-nombre">
+        <br>
+        <br>
+        <label for="">Apellido</label>
+        <input id= "valorApellido" type="text">
+
+        <br>
+        <br>
+        <label for="">Cantidad</label>
+        <input id= "cantidad" type="number">
+        <br>
+        <br>
+
+        <label for="">Categoria</label>
+        <select name="" id="categoria">
+            <option value="0" selected disabled>Seleccionar</option>
+            <option value="1"> Estudiante </option>
+            <option value="2"> Trainee </option>
+            <option value="3"> Junior </option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" value="Comprar" id="boton-comprar" onmousedown="precioFinal ()">
+    </form>
+</div>
+
+<footer></footer>
+
+
+<script src="script.js"></script>
 </body>
 </html>

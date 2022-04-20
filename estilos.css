@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+
+nav {
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+
+}
+
+.descuentos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#descuento-estudiante{
+    width: 20rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 20px;
+    background: rgb(226, 131, 43);
+}
+
+#descuento-trainee{
+    width: 20rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(25, 158, 140);
+}
+
+#descuento-junior{
+    width: 20rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(206, 23, 108);
+}
+
+h2 {
+
+    color: rgb(52, 56, 59);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input, select{
+    border-color: rgb(201, 201, 201);
+    border-radius: .25rem;
+    padding: 10px;
+    margin-top: 10px;
+    
+   
+   
+    
+}
+select{
+    padding: 20px;
+}
+
+label{
+
+    
+    margin-top: 10px;
+    padding-top: 5px;
+    color: rgb(136, 136, 136);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#boton-comprar{
+
+    background-color: rgb(146, 151, 151);
+    text-align: center;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+footer{
+
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 30px;
+}
